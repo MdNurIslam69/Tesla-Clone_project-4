@@ -48,7 +48,56 @@ html {
   color: black;
 }
 /* mobile responsive 1  */
-/* //.  */
+
+@media (max-width: 1180px) {
+  .nav-items {
+    font-size: 16px;
+  }
+}
+
+/* mobile responsive 2  */
+@media (max-width: 950px) {
+  .nav-items {
+    font-size: 14px;
+  }
+
+  .tesla-logo {
+    height: 15px;
+  }
+
+  .car-details h2 {
+    font-size: 45px;
+    margin-top: 25px;
+  }
+}
+
+/* mobile responsive 3  */
+@media (max-width: 750px) {
+  .close-menu-icon {
+    width: 40px;
+    cursor: pointer;
+    color: black;
+    margin-right: -20px;
+    margin-top: -24px;
+  }
+
+  .social-icons {
+    width: 30px;
+  }
+
+  .logos {
+    height: 15px;
+    margin-top: 35px;
+    margin-bottom: 60px;
+  }
+
+  .car-details h2 {
+    font-size: 38px;
+    margin-top: 28px;
+  }
+}
+
+/* mobile responsive 4  */
 @media (max-width: 600px) {
   .links {
     display: none;
@@ -77,8 +126,8 @@ html {
   }
 
   .car-details h2 {
-    font-size: 42px;
-    margin-top: 25px;
+    font-size: 32px;
+    margin-top: 30px;
   }
 
   .car-details p {
@@ -86,52 +135,6 @@ html {
   }
 }
 
-/* mobile responsive 2  */
-@media (max-width: 1180px) {
-  .nav-items {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 950px) {
-  .nav-items {
-    font-size: 14px;
-  }
-
-  .tesla-logo {
-    height: 15px;
-  }
-
-  .car-details h2 {
-    font-size: 45px;
-    margin-top: 25px;
-  }
-}
-/* //.  */
-@media (max-width: 750px) {
-  .close-menu-icon {
-    width: 40px;
-    cursor: pointer;
-    color: black;
-    margin-right: -20px;
-    margin-top: -24px;
-  }
-
-  .social-icons {
-    width: 30px;
-  }
-
-  .logos {
-    height: 15px;
-    margin-top: 35px;
-    margin-bottom: 60px;
-  }
-
-  .car-details h2 {
-    font-size: 40px;
-    margin-top: 5px;
-  }
-}
 @layer components {
   .snap-feature {
     @apply snap-y  snap-mandatory h-screen overflow-scroll transition-all duration-500 scroll-smooth;
