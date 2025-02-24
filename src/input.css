@@ -75,9 +75,38 @@ html {
     margin-top: 35px;
     margin-bottom: 60px;
   }
+
+  .car-details h2 {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+
+  .car-details p {
+    font-size: 18px;
+  }
 }
 
 /* mobile responsive 2  */
+@media (max-width: 1180px) {
+  .nav-items {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 950px) {
+  .nav-items {
+    font-size: 14px;
+  }
+
+  .tesla-logo {
+    height: 15px;
+  }
+
+  .car-details h2 {
+    font-size: 45px;
+    margin-top: 5px;
+  }
+}
 /* //.  */
 @media (max-width: 750px) {
   .close-menu-icon {
@@ -96,6 +125,11 @@ html {
     height: 15px;
     margin-top: 35px;
     margin-bottom: 60px;
+  }
+
+  .car-details h2 {
+    font-size: 40px;
+    margin-top: 5px;
   }
 }
 @layer components {
@@ -123,7 +157,7 @@ html {
   }
 
   .car-name {
-    @apply text-[4rem] text-amber-100 font-semibold;
+    /* @apply text-[4rem] text-amber-100 font-semibold; */
   }
 
   .car-tagline {
